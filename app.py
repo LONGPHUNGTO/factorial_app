@@ -2,7 +2,7 @@ import streamlit as st
 from factorial import fact
 
 def main():
-    st.title("Chuong trinh tinh giai thua")
+    st.title("Chương trình tính giai thừa")
     number = st.number_input("Nhập vào số cần tính: ",
                              min_value=0,
                              max_value=900)
